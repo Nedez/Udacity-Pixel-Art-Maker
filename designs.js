@@ -6,12 +6,12 @@
 		var width = $('#input_width').val();
 
 		//For loops to create grid from user input
-		for(var i = 1; i < height; i++){
+		for(var i = 0 i < height; i++){
 			$('table').append('<tr></tr>');
 
 		}
 			//Inner loop for adding width after each row using  variable x
-			for(var x = 1; x < width; x++){
+			for(var x = 0; x < width; x++){
 				$('table>tr').append('<td></td>');
 			}
 
