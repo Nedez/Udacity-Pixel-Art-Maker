@@ -6,7 +6,7 @@
 		var width = $('#input_width').val();
 
 		//For loops to create grid from user input
-		for(var i = 0 i < height; i++){
+		for(var i = 0; i < height; i++){
 			$('table').append('<tr></tr>');
 
 		}
